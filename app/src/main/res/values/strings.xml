@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BOOKit</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="register_here"><u>Register Here</u></string>
+    <string name="already_have_an_account"><u>Already have an Account?</u></string>
+    <string name="give_feedback"><u>Give Feedback</u></string>
+</resources>
