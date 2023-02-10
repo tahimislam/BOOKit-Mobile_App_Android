@@ -33,6 +33,7 @@ public class AdminActivity extends AppCompatActivity {
     private FirebaseStorage firebaseStorage;
     private static final int picimage=1;
     private Uri uriImage;
+    private int x;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
