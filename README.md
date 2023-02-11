@@ -51,7 +51,7 @@ The app, namely BOOKit is a platform where consumers can get all hotels in one p
 <img src="https://user-images.githubusercontent.com/66324297/218262616-dbb49318-09eb-426a-8bff-281ba52503ec.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262617-9d60ce32-5b64-4fa1-bbf2-b07b02bdb157.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262618-8b9a6592-66be-4e7f-94d4-b1e232a922b1.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262619-4acc4e2a-314c-4ec4-ac34-3a273741bd65.jpg" width="180" height="350">
 
 
-<img src="https://user-images.githubusercontent.com/66324297/218262620-d7ba4339-7684-426e-9394-97fefa2110ee.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262621-196c48f2-ee0f-4b16-beb8-d289882afd40.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262622-6b2379e6-6e37-46e3-b7c5-b656e2727dd7.jpg" width="180" height="350"> 
+<img src="https://user-images.githubusercontent.com/66324297/218262620-d7ba4339-7684-426e-9394-97fefa2110ee.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262621-196c48f2-ee0f-4b16-beb8-d289882afd40.jpg" width="180" height="350">    <img src="https://user-images.githubusercontent.com/66324297/218262622-6b2379e6-6e37-46e3-b7c5-b656e2727dd7.jpg" width="180" height="350"> 
 
 
 
