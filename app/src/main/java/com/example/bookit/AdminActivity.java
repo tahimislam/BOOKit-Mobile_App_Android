@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -132,5 +134,39 @@ public class AdminActivity extends AppCompatActivity {
             uriImage=data.getData();
             imageView.setImageURI(uriImage);
         }
+    }
+
+    //Creating ActionBar Menu
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        //Inflate menu items
+        getMenuInflater().inflate(R.menu.admin_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    //When any menu item is selected
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        int id=item.getItemId();
+        if(id==R.id.logout)
+        {
+            Toast.makeText(AdminActivity.this,"Signed Out",Toast.LENGTH_LONG).show();
+            Intent intent=new Intent(AdminActivity.this,LoginActivity.class);
+
+            //Clear all stacks
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();               //Close ProfileActivity
+        }
+        else
+        {
+            Toast.makeText(AdminActivity.this,"Something went wrong!",Toast.LENGTH_LONG).show();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

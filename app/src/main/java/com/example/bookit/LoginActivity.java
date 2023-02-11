@@ -226,8 +226,8 @@ public class LoginActivity extends AppCompatActivity {
                     FirebaseUser curruser=authProfile.getCurrentUser();
 
                     //Check if email is verified
-                    if(curruser.isEmailVerified())
-                    {
+//                    if(curruser.isEmailVerified())
+//                    {
                         Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_LONG).show();
                         Intent intent=new Intent(LoginActivity.this, HomeActivity.class);
 
@@ -237,13 +237,13 @@ public class LoginActivity extends AppCompatActivity {
                         startActivity(intent);
 
                         finish();               //To close Login Activity
-                    }
-                    else
-                    {
-                        curruser.sendEmailVerification();
-                        authProfile.signOut();
-                        Alertbox();
-                    }
+//                    }
+//                    else
+//                    {
+//                        curruser.sendEmailVerification();
+//                        authProfile.signOut();
+//                        Alertbox();
+//                    }
                 }
                 else
                 {

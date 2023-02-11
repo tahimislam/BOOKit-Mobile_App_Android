@@ -219,9 +219,11 @@ public class RegisterActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if(task.isSuccessful()) {
                                         //Send Verification Email
-                                        user.sendEmailVerification();
+//                                        user.sendEmailVerification();
 
                                         Toast.makeText(RegisterActivity.this, "Registration Successful!", Toast.LENGTH_LONG).show();
+
+                                        mAuth.signOut();
 
                                         //Back to login page
                                         Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);

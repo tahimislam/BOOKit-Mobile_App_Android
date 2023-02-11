@@ -223,7 +223,7 @@ public class ProfileActivity extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(ProfileActivity.this,"Something went wrong! Out",Toast.LENGTH_LONG).show();
+            Toast.makeText(ProfileActivity.this,"Something went wrong!",Toast.LENGTH_LONG).show();
         }
         return super.onOptionsItemSelected(item);
     }
