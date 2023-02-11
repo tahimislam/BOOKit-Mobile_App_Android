@@ -3,7 +3,7 @@
     <style name="Theme.BOOKit" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#1B65F8</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">#0B0DE3</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

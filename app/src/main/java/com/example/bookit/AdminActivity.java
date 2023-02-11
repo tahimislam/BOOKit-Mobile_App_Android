@@ -25,7 +25,7 @@ import com.google.firebase.storage.UploadTask;
 
 public class AdminActivity extends AppCompatActivity {
 
-    private EditText name,price,room,about,date,location;
+    private EditText name,price,room,about,location;
     private ImageView imageView;
     private Button upbtn,addbtn;
     private ProgressBar progbar;
@@ -49,7 +49,6 @@ public class AdminActivity extends AppCompatActivity {
         price=findViewById(R.id.price);
         room=findViewById(R.id.rooms);
         about=findViewById(R.id.description);
-        date=findViewById(R.id.date);
         location=findViewById(R.id.location);
         imageView=findViewById(R.id.imageView);
         upbtn=findViewById(R.id.chsbtn);
@@ -85,7 +84,6 @@ public class AdminActivity extends AppCompatActivity {
                                     hoteldata.setLocation(location.getText().toString().trim());
                                     hoteldata.setRoom(room.getText().toString().trim());
                                     hoteldata.setAbout(about.getText().toString().trim());
-                                    hoteldata.setDate(date.getText().toString().trim());
                                     hoteldata.setPrice(price.getText().toString().trim());
                                     hoteldata.setRating("0.0");
                                     hoteldata.setUserCount("0");
