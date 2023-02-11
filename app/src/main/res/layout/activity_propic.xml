@@ -36,11 +36,12 @@
 
         <ImageView
             android:id="@+id/propic"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="300dp"
-            android:layout_marginTop="20dp"
             android:layout_below="@id/chsbtn"
-            android:background="@drawable/boarder"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
             android:contentDescription="ImageView to Display Pic" />
 
         <Button
