@@ -41,7 +41,6 @@
             android:layout_below="@id/chsbtn"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-
             android:contentDescription="ImageView to Display Pic" />
 
         <Button
