@@ -32,7 +32,7 @@ public class UpdateEmailActivity extends AppCompatActivity {
     private FirebaseAuth authProfile;
     private FirebaseUser firebaseUser;
     private ProgressBar progbar;
-    private String oldEmail,newEmail,password;
+    private String oldEmail,newEmail,password,Email;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -74,9 +74,16 @@ public class UpdateEmailActivity extends AppCompatActivity {
         authbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Email=email.getText().toString().trim();
                 password=pass.getText().toString().trim();
 
-                if(TextUtils.isEmpty(password))
+                if(TextUtils.isEmpty(Email))
+                {
+                    Toast.makeText(UpdateEmailActivity.this,"Please enter your current email",Toast.LENGTH_LONG).show();
+                    email.setError("Email is required");
+                    email.requestFocus();
+                }
+                else if(TextUtils.isEmpty(password))
                 {
                     Toast.makeText(UpdateEmailActivity.this,"Please enter your password",Toast.LENGTH_LONG).show();
                     pass.setError("Password is required");
