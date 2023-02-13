@@ -123,7 +123,7 @@ public class ConfirmActivity extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if(task.isSuccessful()) {
-                                            Toast.makeText(ConfirmActivity.this, "Hotel Booked Successfully! See Your Dashboard", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(ConfirmActivity.this, "Hotel Booked Successfully! See Your Dashboard", Toast.LENGTH_SHORT).show();
 
                                             Intent intent = new Intent(ConfirmActivity.this, DashboardActivity.class);
 //                                            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK

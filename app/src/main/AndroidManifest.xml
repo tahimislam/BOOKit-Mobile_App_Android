@@ -19,7 +19,7 @@
             android:exported="false">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ProfileActivity" />
+                android:value=".HotelActivity" />
         </activity>
         <activity
             android:name=".HotelDetailsActivity2"
