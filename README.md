@@ -54,6 +54,8 @@ The app, namely BOOKit is a platform where consumers can get all hotels in one p
 <img src="https://user-images.githubusercontent.com/66324297/218262620-d7ba4339-7684-426e-9394-97fefa2110ee.jpg" width="180" height="350">   <img src="https://user-images.githubusercontent.com/66324297/218262621-196c48f2-ee0f-4b16-beb8-d289882afd40.jpg" width="180" height="350">    <img src="https://user-images.githubusercontent.com/66324297/218262622-6b2379e6-6e37-46e3-b7c5-b656e2727dd7.jpg" width="180" height="350"> 
 
 
+## Demo
 
+https://user-images.githubusercontent.com/66324297/224121902-d4245d28-53ae-4bbc-bc50-5cd36ddc4539.mp4
 
 
